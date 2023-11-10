@@ -5,8 +5,21 @@
  // string "SAURAV ", "YADAV"
  //Number [1,2,3,4,5,........]
  //Boolean [Have only two values ]
- //Undefined 
+
+
+ //Undefined    {variable is declared but value is not assigned} eg
+ let firstNamee ;
+ console.log(typeof firstNamee); 
+
  //Null
+ //Null is null only 
+ //let myVariable = null;
+ //console.log(myVariable);
+ // o/p -> null
+ //console.log(typeof null);**********
+ //o/p-> object********
+ //error, bug**************
+
 
  // less used
  // BigInt
