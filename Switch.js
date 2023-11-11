@@ -1,0 +1,19 @@
+// Switch statement is JS
+// syntax:
+/* Switch (variable){
+    case 0: console.log();
+    break;
+    ...
+    ....
+    ....
+    .....
+    .....
+    ....
+
+}
+default case:{
+    console.log("");
+}
+
+it is similar to else if statements 
+*/
