@@ -11,7 +11,7 @@
     ....
 
 }
-default case:{
+default :{
     console.log("");
 }
 
