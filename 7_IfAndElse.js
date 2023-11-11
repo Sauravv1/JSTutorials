@@ -23,6 +23,7 @@ else{
 // NESTED IF ELSE 
 
 // we write another if else statement into else block eg:
+// prompt box is used to take an input from user 
 
 let winningNumber = 22;
 let userGuess = +prompt("You picked");  // to execute this write this code in .html extension
