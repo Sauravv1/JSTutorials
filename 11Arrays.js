@@ -1,8 +1,8 @@
 // ordered collection of items
 // Arrays are created using [] brackets and inside these brackets string values are stored
 
-let score = [22,44,100,2,49,55]
-console.log(score[3]);
+//et score = [22,44,100,2,49,55]
+//console.log(score[3]);
 
 // we can access array index by [input number ]
 // we can store any datatype in array
@@ -50,5 +50,30 @@ this is same as pop method
 variableName.shift("itemName");
 
 
+#  How to clone array
+ let array1 = ["item1","item2"];
+ 
+ 1)let array2 = array1.slice(0).concat(["item3","item4"]);  ... concating two arrays
+   this method will start from 0th index and will go till last index
+
+
+ another way
+ 2)let array2 = [].concat(array1,["item3","item4"]);
+
+ 3) let array2 = [...array1,"item3","item4"];  ....... spread operator
+
+ array1.push("item3");
+
+
+
+ #FOR LOOP IN ARRAY 
+
+ 
+
+
 
 */
+let fruits = ["apple", "mango", "grapes", "banana"];
+ for( let i=0; i<=fruits.length-1; i++){
+console.log(fruits[i].toUpperCase());
+ }
