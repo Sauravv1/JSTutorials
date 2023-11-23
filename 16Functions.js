@@ -59,3 +59,24 @@ console.log(isEven(8));
      code to be executed
  } 
  */
+
+ // WE CAN CREATE FUNCION INSIDE FUNCTION 
+
+ // eg:
+
+ const hello = ()=>{
+    console.log("HEY, HOW ARE YOU MATE??");
+
+
+    let calculate = (num1,num2)=>{
+    return num1 + num2 ;
+    }
+    console.log(calculate(5,49));
+
+
+    const name = ()=>{
+        console.log("Saurav Yadav");
+    }
+    name();
+ }
+ hello();
