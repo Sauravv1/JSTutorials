@@ -1,1 +1,1 @@
-// Acallback function is passed as an ARGUMENT to another function 
+// A callback function is passed as an ARGUMENT to another function 
