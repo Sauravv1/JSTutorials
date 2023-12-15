@@ -14,3 +14,14 @@ greet('John');     // Outputs: Hello, John!
 */
 
 // REST PARAMETER
+
+/*
+In JavaScript, the rest parameter is a feature that allows a function to accept 
+an indefinite number of arguments as an array. 
+
+It is represented by three dots (...) followed by a parameter name and is placed at the 
+end of the function's parameter list.
+
+EG:
+
+*/
